@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Muhammad</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ali</td>
+            <td>25</td>
+        </tr>
+    </table> -->
+
+    <!-- <table>
+        <tr>
+            <th>id</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>Muhammad</td>
+            <td>Ali</td>
+        </tr>
+        <tr>
+            <th>age</th>
+            <td>29</td>
+            <td>25</td>
+        </tr>
+    </table> -->
+
+    <!-- <table>
+        <tr>
+            <th>id</th>
+            <th colspan="2">phone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>010</td>
+            <td>011</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>012</td>
+            <td>015</td>
+        </tr>
+    </table> -->
+
+    <!-- <table>
+        <tr>
+            <th>id</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan="2">phone</th>
+            <td>010</td>
+            <td>011</td>
+        </tr>
+        <tr>
+            <td>012</td>
+            <td>015</td>
+        </tr>
+    </table> -->
+
+    <!-- <table>
+        <thead>
+            <tr>
+                <th colspan="3">CV</th>
+            </tr>
+            <tr>
+                <th colspan="3">Muhammad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Footer</th>
+            </tr>
+        </tfoot>
+    </table> -->
+
+    <!----------------------------------- -->
+
+    <form action="./welcome.html" method="get">
+        <!-- text -->
+        <label for="first">first name</label>
+        <input type="text" name="fname" id="first" required>
+        <br>
+        <!-- email -->
+        <label>email</label>
+        <input type="email" name="mail" placeholder="ex@123.com">
+        <br>
+        <!-- tel -->
+        <label>telephone</label>
+        <input type="tel" pattern="^01(0|1|2|5)[0-9]{8}$" name="tel">
+        <br>
+
+
+
+        <!-- password -->
+        <label>password</label>
+        <input type="password" name="pass">
+        <br>
+
+        <!-- hidden -->
+        <input type="hidden" name="id1" value="123456">
+        <br>
+
+        <label for="">ID</label>
+        <input type="text" name="id2" value="123456" readonly>
+        <br>
+
+        <label for="">ID</label>
+        <input type="text" name="id3" value="123456" disabled>
+        <br>
+        <!-- file -->
+        <label for="">file</label>
+        <input type="file" name="img">
+        <br>
+
+        <!-- image -->
+        <label for="">image</label>
+        <input type="image" src="../R.png" width="100px">
+        <br>
+
+        <!-- radio -->
+        <p>Gender :</p>
+        <input type="radio" name="gender" value="male">
+        <label for="">male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="">female</label>
+        
+        <!-- checkbox -->
+        <p>languages :</p>
+        <input type="checkbox" name="lang" value="html">
+        <label>html</label>
+        <input type="checkbox" name="lang" value="css">
+        <label>css</label>
+        <input type="checkbox" name="lang" value="js">
+        <label>js</label>
+        <br>
+        
+        <!-- select -->
+        <!-- <label for="">Cars</label> -->
+        <select name="cars" id="">
+            <option value="" selected disabled>select from cars</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+            <option value="Volvo">Volvo</option>
+        </select>
+        <br>
+
+        <!-- datalist -->
+        <input type="text" placeholder="الدول" list="myList">
+        <datalist id="myList">
+            <option value="EGY"></option>
+            <option value="KSA"></option>
+            <option value="USA"></option>
+            <option value="UAE"></option>
+        </datalist>
+        <br>
+
+        <!-- color -->
+        <input type="color">
+        <br>
+
+        <!-- number -->
+        <input type="number" min="1" max="3">
+        <br>
+        <!-- range -->
+        <input type="range" min="0" max="5" step="0.5">
+        <br>
+
+        <!-- submit -->
+        <br>
+        <input type="submit" value="send">
+        <input type="reset" value="clear">
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

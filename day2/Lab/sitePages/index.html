@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <form action="get">
+      <label for="id">ID: </label>
+      <input type="hidden" name="id" id="id" value="123456" />
+      <br />
+      <label for="Firstname">First Name: </label>
+      <input type="text" name="Firstname" id="Firstname" required />
+      <br />
+      <hr />
+      <label for="Lastname">Last Name: </label>
+      <input type="text" name="Lastname" id="Lastname" required />
+      <br />
+      <hr />
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" required />
+      <br />
+      <hr />
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <hr />
+      <label for="Repeatpassword">Repeat Password: </label>
+      <input
+        type="password"
+        name="Repeatpassword"
+        id="Repeatpassword"
+        required
+      />
+      <br />
+      <hr />
+
+      <label for="date">Birth Date: </label>
+      <input type="date" name="date" id="date" />
+      <br />
+      <hr />
+      <label for="Picture">User Picture: </label>
+      <input type="file" name="Picture" id="Picture" />
+      <br />
+      <hr />
+      <label for="Gender">Gender: </label>
+      <input type="radio" name="Gender" id="Gender" />
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Gender" />
+      <label for="Female">Female</label>
+      <br />
+      <hr />
+      <label for="Faculty">Faculty: </label>
+      <select name="Faculty" id="Faculty">
+        <option
+          value="Faculty of Navigation Science and Space Technology- Beni Suef University"
+        >
+          Faculty of Navigation Science and Space Technology- Beni Suef
+          University
+        </option>
+        <option value="Faculty of Computers and Artificial Intelligence">
+          Faculty of Computers and Artificial Intelligence
+        </option>
+        <option value="Faculty of Electrical Engineering">
+          Faculty of Electrical Engineering
+        </option>
+      </select>
+      <br />
+      <hr />
+      <label for="Interests">Interests:</label>
+      <input type="checkbox" name="Programming" id="Programming" />
+      <label for="Interests">Programming</label>
+      <input type="checkbox" name="reading" id="reading" />
+      <label for="Interests">reading</label>
+      <input type="checkbox" name="swimming" id="swimming" />
+      <label for="Interests">swimming</label>
+      <br />
+      <hr />
+      <textarea name="About" id="About"></textarea>
+      <br />
+      <hr />
+      <label for="terms">Terms And Conditions</label>
+      <input type="checkbox" name="terms" id="terms" />
+      <a href="terms.html" target="_blank">Terms And Conditions</a>
+      <br />
+      <hr />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
