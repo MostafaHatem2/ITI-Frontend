@@ -1,0 +1,110 @@
+.en {
+    color: green;
+    background-color: brown;
+}
+
+.ar {
+    text-align: end;
+}
+
+#hId {
+    background-color: aqua;
+    text-align: center;
+}
+
+input {
+    background-color: bisque;
+}
+
+input[type="text"] {
+    background-color: cadetblue;
+}
+
+input[name="fname"] {
+    background-color: blueviolet;
+}
+
+img[src="../R.png"] {}
+
+a[href="linkedIn.com"] {
+    background-color: black;
+    color: white;
+}
+
+/* contain *= */
+a[href*="face"] {
+    background-color: burlywood;
+}
+
+/* start ^= */
+a[href^="www"] {
+    background-color: brown;
+}
+
+/* end $= */
+a[href$="eg"] {
+    background-color: blueviolet;
+}
+
+[class*="col"] {
+    color: red;
+}
+
+
+div p {
+    color: blue;
+}
+
+div>p {
+    color: red;
+}
+
+div>span>p{}
+
+
+
+
+
+div~h3{
+    color: blue;
+}
+
+
+div+h3{
+    color: red;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+div, .en, #hid, a[href=""]{} 
+
+
+/* a:hover{
+    color: white;
+    background-color: black;
+} */
+
+/* a:visited{
+    color: red;
+} */
+/* a:active{
+    color: green;
+} */
+
+/* input:focus{
+    background-color: brown;
+} */
+
+
+/* span{
+    visibility: hidden;
+} */
+/* input:invalid{
+    background-color: red;
+}
+input:valid+span{
+    visibility: visible;
+} */

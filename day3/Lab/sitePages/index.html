@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- head logo links -->
+    <head>
+      <div class="header">
+        <div class="name"><a href="#">Mostafa Hatem</a></div>
+        <div class="logo">
+          <img src="../images/logo.jpg" alt="" />
+        </div>
+      </div>
+      <nav class="navigationBar">
+        <div class="links">
+          <ul>
+            <li class="home link"><a href="#">Home</a></li>
+            <li class="contact link"><a href="#">Contact us</a></li>
+            <li class="about link"><a href="#">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </head>
+    <!-- main sides and home registration -->
+    <main>
+      <!-- left side -->
+      <div class="leftPage side">
+        <div class="space"></div>
+        <div class="social">
+          <a class="face" href="https://www.facebook.com/">
+            <i class="fa-brands fa-facebook-f"></i>
+            Facebook
+          </a>
+          <a class="twit" href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i>
+            Twitter
+          </a>
+        </div>
+        <div class="frame">
+          <iframe src="" frameborder="0"> </iframe>
+        </div>
+      </div>
+      <!-- center side -->
+      <div class="center">
+        <h1>My Profile</h1>
+        <form action="get">
+          <input type="hidden" id="id" class="input" />
+
+          <label for="fName" class="label">Frist Name</label>
+          <input type="text" id="fName" required class="input" />
+
+          <label for="lName" class="label">Last Name</label>
+          <input type="text" id="lName" required class="input" />
+
+          <label for="email" class="label">Email</label>
+          <input type="email" id="email" required class="input" />
+
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" class="input" />
+
+          <label for="rePassword" class="label">Repeat Password</label>
+          <input type="password" id="rePassword" class="input" />
+
+          <label for="bDate" class="label">Birth Date</label>
+          <input type="date" id="bDate" class="input" />
+
+          <label for="uPicture" class="label">User Picture</label>
+          <input type="file" id="uPicture" class="input btn" />
+
+          <label for="gender" class="label">Gender</label>
+          <input type="radio" id="male" class="input" />
+          <label for="male" class="label">Male</label>
+          <input type="radio" id="female" class="input" />
+          <label for="female" class="label">Female</label>
+
+          <label for="Faculty" class="label">Faculty: </label>
+          <select name="Faculty" id="Faculty">
+            <option
+              value="Faculty of Navigation Science and Space Technology- Beni Suef University"
+            >
+              Faculty of Navigation Science and Space Technology- Beni Suef
+              University
+            </option>
+            <option value="Faculty of Computers and Artificial Intelligence">
+              Faculty of Computers and Artificial Intelligence
+            </option>
+            <option value="Faculty of Electrical Engineering">
+              Faculty of Electrical Engineering
+            </option>
+          </select>
+
+          <label for="Interests" class="label">Interests:</label>
+          <input
+            type="checkbox"
+            name="Programming"
+            id="Interests"
+            class="input"
+          />
+          <label for="Interests" class="label">Programming</label>
+          <input type="checkbox" name="reading" id="Interests" class="input" />
+          <label for="Interests" class="label">reading</label>
+          <input type="checkbox" name="swimming" id="Interests" class="input" />
+          <label for="Interests" class="label">swimming</label>
+
+          <label for="About" class="label">About</label>
+          <textarea name="About" id="About"></textarea>
+
+          <label for="terms" class="label">Terms And Conditions</label>
+          <input type="checkbox" name="terms" id="terms" class="input" />
+          <a class="link-terms" href="terms.html" target="_blank"
+            >Link: Terms And Conditions</a
+          >
+          <div class="button">
+            <input type="submit" value="Submit" class="input btn" />
+            <input type="reset" value="Reset" class="input btn" />
+          </div>
+        </form>
+      </div>
+      <!-- right side -->
+      <div class="rightPage side">
+        <div class="space"></div>
+        <div class="news">News</div>
+      </div>
+    </main>
+
+    <!-- Start Footer -->
+    <footer>
+      <a href="#">Top of page</a>
+      Copyrights © are reserved to ITI.
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
