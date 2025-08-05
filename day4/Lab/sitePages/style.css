@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "header header header header header"
+    "nav nav nav nav nav"
+    "cutneute-left cutneute cutneute cutneute cutneute-right"
+    "cutneute-left cutneute cutneute cutneute cutneute-right"
+    "cutneute-left cutneute cutneute cutneute cutneute-right"
+    "cutneute-left cutneute cutneute cutneute cutneute-right"
+    "cutneute-left cutneute cutneute cutneute cutneute-right"
+    "footer footer footer footer footer"
+    "footer footer footer footer footer";
+  gap: 10px;
+  width: 100%;
+  height: calc(100vh - 20px);
+  margin: 0;
+  padding: 0;
+}
+
+.cont {
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.cutneute-left {
+  grid-area: cutneute-left;
+}
+
+.cutneute-main {
+  grid-area: cutneute;
+}
+
+.cutneute-right {
+  grid-area: cutneute-right;
+}
+
+.footer {
+  grid-area: footer;
+}
