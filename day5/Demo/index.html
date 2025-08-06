@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.7-dist/css/bootstrap.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->
+</head>
+
+<body style="font-size: 30px;">
+    <!-- <div>Hello World!</div> -->
+    <!--* layout -->
+    <!--! breakpoint -->
+    <!--! container -->
+    <div class="container bg-danger">container</div>
+
+    <div class="container-sm bg-danger">container-sm</div>
+    <div class="container-md bg-danger">container-md</div>
+    <div class="container-lg bg-danger">container-lg</div>
+    <div class="container-xl bg-danger">container-xl</div>
+    <div class="container-xxl bg-danger">container-xxl</div>
+
+    <div class="container-fluid bg-danger">container-fluid</div>
+
+    <!--! grid -->
+
+    <!-- 
+    col-num => num
+
+    col => sharing (free space)
+    col-auto => content width
+
+    none => 12
+    col-12 => 12
+    col- => 12
+    -->
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 border">1</div>
+            <div class="col-6 border">2</div>
+            <div class="col-3 border">3</div>
+            <div class="col border">4</div>
+            <div class="col-auto border">5</div>
+        </div>
+    </div> -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 border bg-dark text-light">1</div>
+            <div class="col-md-9 col-lg-6 border bg-dark text-light">2</div>
+            <div class="col-lg-3 border bg-dark text-light">3</div>
+        </div>
+    </div> -->
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 border bg-dark text-light">1</div>
+            <div class="col-md-9 col-lg-6 border bg-dark text-light">2</div>
+            <div class="d-md-none d-lg-block col-lg-3 border bg-dark text-light">3</div>
+        </div>
+    </div> -->
+
+    <!--! column (flex-prop.) -->
+
+    <!-- <div class="container-fluid">
+        <div class="border row justify-content-center align-items-center" style="height: 200px;">
+            <div class="col-2 border bg-dark text-light align-self-start">1</div>
+            <div class="col-2 col-lg-6 border bg-dark text-light">2</div>
+            <div class="col-2 border bg-dark text-light">3</div>
+        </div>
+    </div> -->
+
+    <!--*                     content -->
+    <!--! typography -->
+    <!-- heading -->
+    <div>
+        <h1>Hello World!</h1>
+    </div>
+    <div class="h1">Hello World!</div>
+
+    <!-- display -->
+    <div class="display-1">Hello World!</div>
+    <!--! images -->
+
+    <!--*                Utilities => limited -->
+    <!--! background, colors, borders -->
+    <div class="border border-3 border-bottom-0 border-primary bg-success text-warning">1</div>
+
+    <p class="text-break">
+        mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <script src="./bootstrap-5.3.7-dist/js/bootstrap.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
